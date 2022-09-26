@@ -1,0 +1,31 @@
+@import "~styles/variables.scss";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $color-opaque-white;
+    box-shadow: $shadow-dark-blue;
+    width: 100%;
+    padding: 1rem 0;
+
+
+
+    &__subtitle {
+        text-align: center;
+        padding: 0 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    &__images {
+        > img {
+            display: none;
+        }
+    }
+
+    img {
+        max-height: 2rem;
+        margin-right: 0.5rem;
+    }
+}

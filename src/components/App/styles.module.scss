@@ -1,0 +1,16 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    // background-image: linear-gradient(to top, #efffa3, #bff2a2, #90e3a6, #60d2ac, #27c0b2);
+    // background-color: #4158D0;
+    // background-image: linear-gradient(43deg, #4158D0 12%, #C850C0 59%, #FFCC70 100%);
+
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgb(22, 5, 58) 0%, rgb(73, 9, 83) 46.2%, rgb(88, 25, 86) 90.1% );
+
+
+    > *:not(:first-child):not(:last-child) {
+        z-index: 1;
+    }
+}

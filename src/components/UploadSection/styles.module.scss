@@ -1,0 +1,22 @@
+@import "~styles/variables.scss";
+
+.dropzone-uploader {
+    min-height: 12rem;
+    opacity: 0.8;
+
+    &__input-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px dotted $color-light-blue;
+        color: $color-light-blue;
+        flex: 1;
+        width: 100%;
+        border-radius: 50px;
+
+        &--highlighted {
+            border: 2px dotted $color-dark-blue;
+            color: $color-dark-blue;
+        }
+    }
+}
